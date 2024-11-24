@@ -538,4 +538,22 @@ ul {
   fill: #f4f4fd;
 }
 
+.footer-container-form {
+}
+
+.footer-container-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-label {
+  gap: 24px;
+}
 /* #endregion */
