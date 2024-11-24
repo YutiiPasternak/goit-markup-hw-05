@@ -646,21 +646,43 @@ ul {
 .modal-button:hover {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .modal-button:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .modal-icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon-close:hover {
-  fill: #ffffff;
+.modal-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 16px;
 }
-.modal-icon-close:focus {
-  fill: #ffffff;
+
+.modal-container {
+  margin-bottom: 8px;
+}
+
+.form-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form-container-input {
+  position: relative;
 }
 /* #endregion */
