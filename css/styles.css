@@ -712,7 +712,7 @@ ul {
   border-color: #4d5ae5;
 }
 
-.form-input:focus .form-input-icons {
+.form-input:focus + .form-input-icons {
   fill: #4d5ae5;
 }
 .form-input-icons {
